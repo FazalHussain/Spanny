@@ -1,13 +1,15 @@
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 22
-    buildToolsVersion "22.0.1"
+    namespace 'com.binaryfork.spannySample'
+
+    compileSdkVersion 34
+    //buildToolsVersion "22.0.1"
     resourcePrefix "spanny__"
 
     defaultConfig {
         minSdkVersion 8
-        targetSdkVersion 22
+        targetSdkVersion 34
         versionCode 1
         versionName "1.0.3"
     }
@@ -20,7 +22,7 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
 }
 
-apply from: 'bintray.gradle'
+apply plugin: "com.jfrog.bintray"
