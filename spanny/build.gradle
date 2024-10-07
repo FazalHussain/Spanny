@@ -32,9 +32,6 @@ afterEvaluate {
             // Creates a Maven publication called "release".
             release(MavenPublication) {
                 from components.findByName('release')
-                groupId = 'com.binaryfork.spanny'
-                artifactId = 'spanny'
-                version = '2.0.0'
             }
         }
     }

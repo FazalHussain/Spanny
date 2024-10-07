@@ -4,11 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Spanny.iml" filepath="$PROJECT_DIR$/Spanny.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Spanny.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Spanny.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Spanny.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Spanny.app.androidTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Spanny.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Spanny.app.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Spanny.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Spanny.app.unitTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spanny/Spanny.spanny.iml" filepath="$PROJECT_DIR$/.idea/modules/spanny/Spanny.spanny.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spanny/Spanny.spanny.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/spanny/Spanny.spanny.androidTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spanny/Spanny.spanny.main.iml" filepath="$PROJECT_DIR$/.idea/modules/spanny/Spanny.spanny.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spanny/Spanny.spanny.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/spanny/Spanny.spanny.unitTest.iml" />
     </modules>
