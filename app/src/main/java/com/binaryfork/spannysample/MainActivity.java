@@ -21,8 +21,8 @@ import android.text.style.URLSpan;
 import android.text.style.UnderlineSpan;
 import android.widget.TextView;
 
-import com.binaryfork.spanny.R;
 import com.binaryfork.spanny.Spanny;
+import com.binaryfork.spannySample.R;
 
 
 public class MainActivity extends Activity {

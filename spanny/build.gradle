@@ -1,7 +1,8 @@
 apply plugin: 'com.android.library'
+apply plugin: 'maven-publish'
 
 android {
-    namespace 'com.binaryfork.spannySample'
+    namespace 'com.binaryfork.spanny'
 
     compileSdkVersion 34
     //buildToolsVersion "22.0.1"
@@ -23,6 +24,20 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+}
+
+afterEvaluate {
+    publishing {
+        publications {
+            // Creates a Maven publication called "release".
+            release(MavenPublication) {
+                from components.findByName('release')
+                groupId = 'com.binaryfork.spanny'
+                artifactId = 'spanny'
+                version = '1.0.5'
+            }
+        }
+    }
 }
 
 apply plugin: "com.jfrog.bintray"

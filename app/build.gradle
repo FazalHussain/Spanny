@@ -1,6 +1,6 @@
 apply plugin: 'com.android.application'
 android {
-    namespace 'com.binaryfork.spanny'
+    namespace 'com.binaryfork.spannySample'
 
     compileSdkVersion 34
     //buildToolsVersion "22.0.1"

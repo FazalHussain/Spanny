@@ -4,6 +4,7 @@ buildscript {
     repositories {
         //jcenter()
         maven { url "https://repo.grails.org/grails/core/" }
+        maven { url "https://jitpack.io" }
         google()
     }
 
@@ -22,6 +23,7 @@ allprojects {
     repositories {
         //jcenter()
         maven { url "https://repo.grails.org/grails/core/" }
+        maven { url "https://jitpack.io" }
         google()
     }
 }
