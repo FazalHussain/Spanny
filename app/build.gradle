@@ -24,4 +24,5 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation project(':spanny')
     //implementation 'com.binaryfork:spanny:1.0.4'
+    //implementation 'com.github.FazalHussain:Spanny:1.0.7'
 }
